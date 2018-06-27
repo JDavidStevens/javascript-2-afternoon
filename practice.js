@@ -15,6 +15,12 @@
 */
 
 //Code here
+var me = {
+  name:"David",
+  age: 38
+}
+alert(me.name);
+
 
 
 
@@ -26,6 +32,15 @@
 */
 
 //Code here
+var favoriteThings = {
+  band:"Led Zeppelin",
+  food: "Curry",
+  person:"Heather",
+  book: "The Great Train Robbery",
+  movie:"Inception",
+  holiday:"Christmas",
+
+}
 
 
 
@@ -34,6 +49,8 @@
 */
 
 //Code here
+favoriteThings.car="Tacoma";
+favoriteThings.brand="Yamaha";
 
 
 
@@ -42,6 +59,8 @@
 */
 
 //Code here
+favoriteThings.food="Chicken Nuggets";
+favoriteThings.book="Harry Potter";
 
 
 
@@ -56,6 +75,10 @@
 */
 
 //Code here
+var backPack={};
+var item = 'firstPocket';
+backPack[item]='chapstick';
+backPack.color="green";
 
 
 
@@ -64,7 +87,7 @@
 */
 
 //Code here
-
+alert(backPack);
 
 
 /*
@@ -74,6 +97,8 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
+console.log(backPack);
+
 
 
 
@@ -98,6 +123,8 @@ var user2 = {
 
 //Code Here
 
+user2.name= "Tyler S. McGinnis";
+user2.email= "tyler.mcginnis@devmounta.in";
 
 
 
@@ -123,6 +150,7 @@ var user2 = {
 
 
 
+
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object. 
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console. 
@@ -130,6 +158,7 @@ var user2 = {
 
 //Code Here
 
+  
 
 
 /*
